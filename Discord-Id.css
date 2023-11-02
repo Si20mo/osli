@@ -1,0 +1,116 @@
+::-moz-selection { /* Code for Firefox */
+  color: rgb(0, 47, 255);
+  background: rgb(60, 83, 186);
+}
+
+::selection {
+  color: rgb(0, 47, 255);
+  background: rgb(60, 83, 186);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(128, 128, 128); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0011ff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #262d96; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-image: url(media/bg6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: "Times New Roman", Times, serif;
+}
+
+.title{
+  background-image: linear-gradient(to right,rgb(60, 83, 186), rgb(0, 47, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+article{
+  font-size: 30px;
+  margin-top: 100px;
+  text-align: center;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 2;
+}
+
+article ul{
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+footer a{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-logo{
+  width: 400px;
+}
+
+footer div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  padding: 100px 0 50px 0;
+  position: relative;
+}
+
+.icons{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.icons a{
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  background-image: linear-gradient(to right,rgb(60, 83, 186), rgb(0, 47, 255));
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: 0.15s ease;
+}
+
+.icons a:hover{
+  font-size: 40px;
+  color: black;
+}
+
+.icons .ju{
+  margin-right: 20px;
+}
